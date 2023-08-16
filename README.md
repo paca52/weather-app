@@ -1,7 +1,7 @@
 # Weather App
 built using react and weatherapi.com
 
-##Preview
+## Preview
 ![alt text](https://github.com/paca52/weather-app/blob/main/preview.png?raw=true)
 
 ## Usage
