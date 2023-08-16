@@ -10,7 +10,7 @@ const APIUrl = 'https://api.weatherapi.com/v1/current.json?key=' + APIKEY + '&q=
 
 const getW = async (city) => {
   try {
-    let res = await fetch(APIUrl + city).catch(e => console.log('error: ' + e));
+    let res = await fetch(APIUrl + city).catch(e => console.error('error: ' + e));
     let data = await res.json();
     return data;
   } catch(e) {
@@ -24,7 +24,6 @@ const App = () => {
   const [element, setElement] = useState('');
 
   const handleClick = () => {
-    console.log('city: ' + city);
     getW(city)
       .then(data => {
         setElement(<Body data={data}/>);

@@ -11,7 +11,6 @@ const Body = ({ data }) => {
 
   let temp, city, humidity, wind_kph, icon;
 
-  console.log(data);
   temp = data.current.feelslike_c,
   city = data.location.name,
   humidity = data.current.humidity,
