@@ -1,0 +1,50 @@
+
+.bodyError {
+  padding: 10px 0 25px 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.bodyWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.bodyCityName {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bodyTemp {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.5rem;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.bodyWindHum {
+  width: 90%;
+  margin: 20px 0;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bodyWind {
+  display: flex;
+  flex-direction: column;
+}
+
+.bodyHum {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,49 @@
+
+.appWrapper {
+  height: fit-content;
+  width: 300px;
+  font-size: 16px;
+  border-radius: 12px;
+  background: var(--primary);
+  box-shadow: 3px 3px 10px 5px #E2C1F4;
+}
+
+.appHeader {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 40px;
+  margin: 10px 0;
+  padding: 5px 0;
+}
+
+.appIconWrapper, .appIconWrapperSearch {
+  background: var(--accent);
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  font-weight: bold;
+  transition: 0.3s ease-out;
+}
+
+.appIconWrapperSearch:hover {
+  cursor: pointer;
+  background: var(--secondary);
+}
+
+.appHeader input {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  width: 60%;
+}
+
+.appHeader input:focus {
+  border: none;
+  outline: none;
+}
