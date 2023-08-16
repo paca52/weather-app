@@ -39,7 +39,7 @@ const App = () => {
           <FontAwesomeIcon icon={faLocationDot} />
         </button>
         <input
-          placeholder='Ime Grada'
+          placeholder='City Name'
           onChange={e => setCity(e.target.value)}
         />
         <button 
